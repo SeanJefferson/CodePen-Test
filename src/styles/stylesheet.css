@@ -35,7 +35,8 @@
   padding: 0;
 }
 .excerpt {
-  margin: 0;
+  margin: auto;
+  text-align: center;
 }
 .pass-talk-links {
   color: rgb(31, 104, 241);
@@ -57,7 +58,26 @@ a:visited {
 h1 {
   margin-top: 30px;
 }
-article {
+p {
+  text-align: center;
+}
+.learn-more-container {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+@media (max-width: 900px) {
+  .buttons {
+    margin: auto;
+    width: 50%;
+  }
+}
+.buttons {
+  margin: auto;
+  width: 20%;
+}
+#learnMore {
+  display: inline-flex;
   background-color: #07c;
   border-style: solid;
   border-color: black;
@@ -67,28 +87,17 @@ article {
   margin-top: 0.8rem;
   padding: 5px;
 }
-@media (max-width: 1300px) {
-  article {
-    background-color: #07c;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 5px;
-    margin-top: 0.8rem;
-    padding: 5px;
-  }
-}
-.buttons {
-  position: absolute;
-  left: 40%;
-}
-#learnMore {
-  display: inline-flex;
-  margin-left: 0;
-}
 #bookNow {
   display: inline-flex;
   margin-left: 5px;
+  background-color: #07c;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 5px;
+  max-width: 120px;
+  margin-top: 0.8rem;
+  padding: 5px;
 }
 #banner {
   width: 100%;
@@ -104,6 +113,10 @@ article {
 #banner-p {
   text-align: center;
 }
+.location {
+  margin: auto;
+  width: 40%;
+}
 #location-h1 {
   text-align: center;
 }
@@ -116,17 +129,15 @@ article {
   padding-top: 3px;
   padding-bottom: 3px;
   color: white;
-  display: inline-flex;
+  display: inline-block;
   margin: auto;
   max-width: 960;
-  align-content: center;
+  text-align: center;
 }
 .nav-item {
   display: inline-flex;
   transform: skew(-20deg);
   text-align: center;
-}
-#navBookNow {
   padding-left: 30px;
   text-decoration: none;
 }

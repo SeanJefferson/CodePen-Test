@@ -1,24 +1,8 @@
-#nav {
-  width: 100%;
-  background-color: #0077cc;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  color: white;
-  display: inline-block;
-  margin: auto;
-  max-width: 960;
-  text-align: center;
-}
-#navBookNow {
-  padding-left: 30px;
-  text-decoration: none;
-}
 #contactForm {
-  max-width: 480px;
+  margin: auto;
   background-color: #0077cc;
   border: #000000 solid 2px;
   color: #ffffff;
-  margin-top: 2rem;
   padding: 1rem;
 }
 #contactForm:after {
@@ -29,6 +13,18 @@
 
 #contactForm > .inner > * {
   float: left;
+}
+@media (max-width: 900px) {
+  form .field.half.first {
+    float: left;
+    margin: auto;
+    display: block;
+  }
+  form .field.half {
+    float: left;
+    margin: auto;
+    display: block;
+  }
 }
 form .field.half.first {
   padding: 0 1em 0 0;
@@ -51,8 +47,19 @@ ul.actions {
 li {
   display: inline;
 }
+.special {
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  border-radius: 5px;
+}
 #clear {
   margin-left: 1rem;
+  padding: 3px;
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+  border-radius: 5px;
 }
 label {
   color: #fff;

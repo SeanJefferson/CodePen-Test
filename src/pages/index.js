@@ -20,14 +20,14 @@ const IndexPage = props => (
       <p id="banner-p">TBC.</p>
       <div className="buttons">
         <Link to="/learnMore/">
-          <article id="learnMore">Learn More!</article>
+          <div id="learnMore">Learn More!</div>
         </Link>
         <a href="https://www.eventbrite.co.uk/e/codepen-hull-concurrency-coding-for-parallel-processing-tickets-51658640384?aff=erelexpmlt">
-          <article id="bookNow">Book Now!</article>
+          <div id="bookNow">Book Now!</div>
         </a>
       </div>
     </div>
-    <div>
+    <div className="location">
       <h2 id="location-h1">Where?</h2>
       <p className="location-p">C4DI @TheDock </p>
       <p className="location-p">31-38 Queen Street, </p>

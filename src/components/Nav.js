@@ -4,11 +4,7 @@ import '../styles/stylesheet.css'
 
 const Nav = () => (
   <div id="nav">
-    <Link
-      to="/learnMore"
-      style={{ paddingLeft: '30px', textDecoration: 'none' }}
-      className="nav-item"
-    >
+    <Link to="/learnMore" className="nav-item">
       About
     </Link>
 
@@ -20,18 +16,10 @@ const Nav = () => (
       Book Now
     </a>
 
-    <Link
-      to="/passTalks"
-      style={{ paddingLeft: '30px', textDecoration: 'none' }}
-      className="nav-item"
-    >
+    <Link to="/passTalks" className="nav-item">
       Pass Talks
     </Link>
-    <Link
-      to="/contact"
-      style={{ paddingLeft: '30px', textDecoration: 'none' }}
-      className="nav-item"
-    >
+    <Link to="/contact" className="nav-item">
       Contact
     </Link>
   </div>
