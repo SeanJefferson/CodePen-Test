@@ -70,7 +70,6 @@ p {
   .buttons {
     margin: auto;
     width: 50%;
-    display: inline-flex;
   }
 }
 .buttons {
