@@ -104,14 +104,17 @@ p {
   background-color: #33a9ff;
   padding-top: 30px;
   padding-bottom: 60px;
-  margin: auto;
   align-content: center;
 }
 #banner-h1 {
   text-align: center;
+  margin: auto;
+  width: 40%;
 }
 #banner-p {
   text-align: center;
+  margin: auto;
+  width: 40%;
 }
 .location {
   margin: auto;
