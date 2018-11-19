@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import Container from '../components/container'
-import './contact.css'
+import '../styles/contact.css'
 
 const ContactPage = () => (
   <Layout>

@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../components/container'
 import Nav from '../components/Nav'
 import Layout from '../components/layout'
-import './stylesheet.css'
+import '../styles/stylesheet.css'
 
 const passTalk = props => (
   <Layout>

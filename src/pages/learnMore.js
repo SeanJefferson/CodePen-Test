@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../components/Nav'
 import Layout from '../components/layout'
-import './learnMore.css'
+import '../styles/learnMore.css'
 
 const SecondPage = () => (
   <Layout>

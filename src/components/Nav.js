@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import '../pages/stylesheet.css'
+import '../styles/stylesheet.css'
 
 const Nav = () => (
   <div id="nav">

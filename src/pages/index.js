@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import styled from 'styled-components'
 import Carousel from '../components/carousel'
-import './stylesheet.css'
+import '../styles/stylesheet.css'
 
 const Item = styled.div`
   text-align: center;
@@ -41,7 +41,7 @@ const IndexPage = props => (
           <div className="user">
             <h2 className="username">Dave Carr - The One Point</h2>
             <a href="https://theonepoint.co.uk/" className="pass-talk-links">
-              https://theonepoint.co.uk/
+              theonepoint.co.uk
             </a>
             <p className="excerpt">
               Dave from The One Point talked about a Graph API he developed that
@@ -54,7 +54,7 @@ const IndexPage = props => (
           <div className="user">
             <h2 className="username">John Doe - Coda</h2>
             <a href="https://panic.com/coda/" className="pass-talk-links">
-              https://panic.com/coda/
+              panic.com/coda
             </a>
             <p className="excerpt">
               John researched Coda. Discussing what Coda is, programming
@@ -69,7 +69,7 @@ const IndexPage = props => (
               href="https://www.rust-lang.org/en-US/"
               className="pass-talk-links"
             >
-              https://www.rust-lang.org/en-US/
+              rust-lang.org
             </a>
             <p className="excerpt">
               Bob researched Rust, discussing what Rust was, programming
@@ -97,7 +97,7 @@ const IndexPage = props => (
           <div className="user">
             <h2 className="username">John Smith - Code4000</h2>
             <a href="https://www.code4000.org/en" className="pass-talk-links">
-              https://www.code4000.org/en
+              code4000.org
             </a>
             <p className="excerpt">
               John Smith was from Code4000, which is an organisation that bring
@@ -110,8 +110,11 @@ const IndexPage = props => (
         <Item>
           <div className="user">
             <h2 className="username">Mike Smith - Parrel Processing</h2>
-            <a href="https://panic.com/coda/" className="pass-talk-links">
-              ???
+            <a
+              href="http://www.lambdafunctions.com/"
+              className="pass-talk-links"
+            >
+              lambdafunctions.com
             </a>
             <p className="excerpt">
               Mike discussed Parrel Processing, definition, the problems,
@@ -124,8 +127,8 @@ const IndexPage = props => (
         <Item>
           <div className="user">
             <h2 className="username">Amalia - Management Software</h2>
-            <a href="https://panic.com/coda/" className="pass-talk-links">
-              https://panic.com/coda/
+            <a href="https://asimpledesign.co.uk/" className="pass-talk-links">
+              asimpledesign.co.uk
             </a>
             <p className="excerpt">
               Amalia discussed Management Software Applications (MSA), problems
@@ -138,7 +141,7 @@ const IndexPage = props => (
           <div className="user">
             <h2 className="username">Matt - Redux</h2>
             <a href="https://redux.js.org/" className="pass-talk-links">
-              https://redux.js.org/
+              redux.js.org
             </a>
             <p className="excerpt">
               Matt discussed Redux, what it is, what you can do with Redux,
